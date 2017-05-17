@@ -1,0 +1,166 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.sjs.dz.rzxt2.my.ClearActivity"
+    android:orientation="vertical"
+    android:background="@color/light_line">
+    <RelativeLayout
+        android:id="@+id/ly_manage_title"
+        android:layout_height="100dp"
+        android:paddingTop="40dp"
+        android:layout_width="wrap_content"
+        android:background="@color/colorPrimary">
+        <ImageButton
+            android:id="@+id/im_back"
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:background="@color/colorPrimary"
+            android:src="@mipmap/ic_left"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="管理缓存"
+            android:textColor="@color/white"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_toRightOf="@+id/im_back"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:id="@+id/tv_batchdelete"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:paddingTop="25dp"
+            android:paddingRight="20dp"
+            android:text="批量删除"/>
+
+        <TextView
+            android:id="@+id/tv_batchdelete_cancel"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:paddingTop="25dp"
+            android:paddingRight="20dp"
+            android:text="取消"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+    <!--<LinearLayout-->
+        <!--android:id="@+id/lv_srceah"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/ly_manage_title"-->
+
+        <!--android:gravity="center"-->
+        <!--android:background="@color/windowBackground"-->
+        <!--&gt;-->
+
+
+        <!--<EditText-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/etOverEvent"-->
+            <!--android:layout_weight="0.95"-->
+            <!--android:background="@null"/>-->
+
+        <!--<ImageButton-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="0.05"-->
+            <!--android:id="@+id/btn_sreach_over_event"-->
+            <!--android:src="@mipmap/ic_search"-->
+            <!--android:background="#fff" />-->
+
+    <!--</LinearLayout>-->
+    <LinearLayout
+        android:id="@+id/ly_memo_sreach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:layout_below="@+id/ly_manage_title"
+        android:layout_marginBottom="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:orientation="horizontal"
+            android:background="@color/white">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@mipmap/ic_search"
+                android:background="@color/white"/>
+            <EditText
+                android:id="@+id/etOverEvent"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_weight="0.8"
+                android:layout_margin="5dp"
+                android:textSize="16dp"
+                android:padding="4dp"
+                android:background="@color/windowBackground"
+                />
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_sreach_over_event"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/touch_sreach_bg"
+            android:textSize="12dp"
+            android:text="@string/sreach"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_recent_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ly_memo_sreach"
+        />
+
+
+
+    <LinearLayout
+        android:id="@+id/ll_delete_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tv_choose_delete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="0.5dp"
+            android:padding="10dp"
+            android:background="#3fb7e4"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:text="删除"/>
+
+        <TextView
+            android:id="@+id/tv_choose_all"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_marginLeft="0.5dp"
+            android:layout_marginRight="1dp"
+            android:background="#3fb7e4"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:text="全选"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

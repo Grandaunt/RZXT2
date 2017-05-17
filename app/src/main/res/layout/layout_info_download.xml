@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@mipmap/info_download"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/info_download"/>
+        <TextView
+            android:alpha="0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" />
+        <ImageView
+            android:id="@+id/down_info_visibility"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@mipmap/up_arrow"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ly_download"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerview_info_down"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:scrollbars="vertical"
+            android:layout_weight="9.5"
+            >
+        </android.support.v7.widget.RecyclerView>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!--activity_horizontal_margin-->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!--布局与控件的内边距-->
+    <dimen name="view_padding">10dp</dimen>
+    <!--ToolBar的高度-->
+    <dimen name="toolbar_height">48dp</dimen>
+    <!--view之间的边距-->
+    <dimen name="view_margin">18dp</dimen>
+    <!--字体大小 -->
+    <dimen name="textSize_small">14dp</dimen>
+    <dimen name="textSize_middle">16dp</dimen>
+    <dimen name="textSize_large">48dp</dimen>
+
+    <dimen name="bg_line">1dp</dimen>
+
+
+    <dimen name="user_icon">60dp</dimen>
+    <dimen name="icon_my_menu">20dp</dimen>
+
+    <dimen name="title_text_size">18sp</dimen><!-- 标题字体大小 -->
+    <dimen name="normal_text_size">16sp</dimen><!-- 通常字体大小 -->
+    <dimen name="medium_text_size">14sp</dimen><!-- 中等字体大小 -->
+    <dimen name="small_text_size">12sp</dimen><!-- 小号字体大小 -->
+</resources>

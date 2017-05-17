@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+        >
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@mipmap/com"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/com_info"/>
+            <TextView
+                android:alpha="0"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0" />
+            <ImageView
+                android:id="@+id/com_info_visibility"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@mipmap/up_arrow"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ly_com_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                >
+                <TextView
+                    android:id="@+id/com_info_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+                </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="2dp"
+            android:padding="5dp"
+            android:background="@color/white"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/about_com_addr"
+                />
+            <TextView
+                android:id="@+id/com_info_addr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="2dp"
+            android:padding="5dp"
+            android:background="@color/white"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/about_com_tel"
+                />
+            <TextView
+                android:id="@+id/com_info_con_tel"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:text="@string/about_com_tel_info"
+                />
+            <TextView
+                android:id="@+id/com_info_com_tel"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:text="@string/about_com_phone_info"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="2dp"
+            android:padding="5dp"
+            android:background="@color/white"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/con"
+                />
+            <TextView
+                android:id="@+id/com_info_con_name"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/con"
+                />
+
+        </LinearLayout>
+        </LinearLayout>
+
+
+</LinearLayout>

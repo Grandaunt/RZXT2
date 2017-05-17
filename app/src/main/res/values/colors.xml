@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--主颜色-->
+    <color name="colorPrimary">#3598db</color>
+    <!--标题栏颜色-->
+    <color name="colorPrimaryDark">#3598db</color>
+    <!--控件更亮的颜色-->
+    <color name="colorAccent">#1492ff</color>
+    <!--背景灰-->
+    <color name="windowBackground">#efeff4</color>
+
+    <color name="textColorWhite">#fff</color>
+    <color name="textColorGray">#ddd</color>
+    <color name="textColorBlack">#000</color>
+    <color name="Buttoncolor">#153b59</color>
+
+    <color name="textViewBackground">#1e4d73</color>
+    <color name="blue">#3598db</color>
+    <!--<color name="colorby">#a761a7</color>-->
+    <color name="white">#fff</color>
+    <color name="drak_line">#999</color>
+    <color name="light_line">#ddd</color>
+    <color name="Orange">#ff9900</color>
+    <color name="Green">#00ff22</color>
+    <color name="Red">#ff4422</color>
+    <color name="Gray">#ccc</color>
+    <color name="light_blue">#bbeeff</color>
+    <color name="drak_blue">#1188ff</color>
+    <color name="drak_red">#ee0033</color>
+
+    <color name="main_bottom_text_normal">#aa847d7b</color>
+    <color name="main_botton_text_select">#1492ff</color>
+    <color name="main_bottom_bg">#fff</color>
+    <color name="essence_tab_bg">#12000000</color>
+    <color name="essence_tab_text_color_normal">#ff847d7b</color>
+    <color name="essence_tab_text_color_press">#1492ff</color>
+</resources>
+
